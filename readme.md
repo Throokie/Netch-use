@@ -10,7 +10,7 @@ Netch 是最适合自建加速器的软件，如果你有不错的节点，就�
 
 将json文件复制到你的netch目录`Netch\mode\Custom` 中
 
-![608d92b8-cbfc-4797-8a85-08ccc3e32616](C:\Users\Throokie\Desktop\Netch-use\.images\608d92b8-cbfc-4797-8a85-08ccc3e32616.png)
+![608d92b8-cbfc-4797-8a85-08ccc3e32616](./.images\608d92b8-cbfc-4797-8a85-08ccc3e32616.png)
 
 # netch常见问题
 
@@ -20,11 +20,11 @@ Netch 是最适合自建加速器的软件，如果你有不错的节点，就�
 
 2. 安装.NET6.0运行库  [Releases · netchx/netch · GitHub](https://github.com/netchx/netch/releases) 官方有说明
    
-   ![972ccc49-bed7-421e-ba53-fee82f6e768d](C:\Users\Throokie\Desktop\Netch-use\.images\972ccc49-bed7-421e-ba53-fee82f6e768d.png)
+   ![972ccc49-bed7-421e-ba53-fee82f6e768d](./.images\972ccc49-bed7-421e-ba53-fee82f6e768d.png)
 
 只要加速没有速度就是没加速上，一般速度要经常为10kb以上，以下这种1kb的不算加速上
 
-![2df3f90f-29ce-472a-abbb-a18006489c1c](C:\Users\Throokie\Desktop\Netch-use\.images\2df3f90f-29ce-472a-abbb-a18006489c1c.png)
+![2df3f90f-29ce-472a-abbb-a18006489c1c](./.images\2df3f90f-29ce-472a-abbb-a18006489c1c.png)
 
 # 如何自己获取想玩的游戏规则
 
@@ -40,9 +40,7 @@ Netch 是最适合自建加速器的软件，如果你有不错的节点，就�
 
 选择udp的ip，我觉得这是游戏服务器的地址ip，加速它就可以加速游戏。加速其他TCP的ip如果节点不好可能会偶尔断连。
 
-![80630bdf-1fd1-4af0-85ae-76d299604b34](C:\Users\Throokie\Desktop\Netch-use\.images\80630bdf-1fd1-4af0-85ae-76d299604b34.png)
-
-
+![80630bdf-1fd1-4af0-85ae-76d299604b34](./.images\80630bdf-1fd1-4af0-85ae-76d299604b34.png)
 
 ## 方法二：
 
@@ -60,8 +58,8 @@ Netch 是最适合自建加速器的软件，如果你有不错的节点，就�
 
 3. 去加速游戏，然后打印路由表`route print -4 > routes.txt`，ip选加速后新增加的。修改`提取.py`
 
-![651ff258-42ae-450f-b601-941bbb4bb03e](C:\Users\Throokie\Desktop\Netch-use\.images\651ff258-42ae-450f-b601-941bbb4bb03e.png)
+![651ff258-42ae-450f-b601-941bbb4bb03e](./.images\651ff258-42ae-450f-b601-941bbb4bb03e.png)
 
 4. `python 提取.py`
-   
-   
+
+
